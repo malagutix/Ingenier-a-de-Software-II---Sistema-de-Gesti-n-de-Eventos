@@ -1,0 +1,3 @@
+postgresql-42.7.4.jar es el driver JDBC oficial de PostgreSQL (https://jdbc.postgresql.org),
+distribuido bajo la licencia BSD 2-Clause. Es la única librería externa del proyecto y la
+necesita el paquete persistencia para conectarse a la base de datos.

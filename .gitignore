@@ -1,0 +1,13 @@
+# Compilados
+out/
+*.class
+
+# Respaldos automáticos de la base
+respaldos/
+
+# Configuración personal de IntelliJ
+.idea/workspace.xml
+.idea/shelf/
+
+# Configuración de correo con contraseña (usar correo.properties.ejemplo)
+correo.properties

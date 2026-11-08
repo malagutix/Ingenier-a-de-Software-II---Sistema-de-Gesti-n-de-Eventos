@@ -1,0 +1,27 @@
+# ---------------------------------------------------------------------
+# Configuración del envío real de correos (recuperación de contraseña)
+# ---------------------------------------------------------------------
+# Para usarlo: copiá este archivo con el nombre  correo.properties
+# (en la misma carpeta) y completá los datos.
+# Si correo.properties no existe o habilitado=false, el sistema usa la
+# "Bandeja de correo (simulada)" que se abre desde la pantalla de login.
+#
+# Ejemplo con Gmail:
+#   1. En tu cuenta de Google activá la verificación en dos pasos.
+#   2. Entrá a https://myaccount.google.com/apppasswords y creá una
+#      "contraseña de aplicación". Google te da 16 letras.
+#   3. Poné esas 16 letras en "contrasena", juntas y sin espacios
+#      (NO tu contraseña normal de Gmail).
+
+habilitado=false
+
+servidor=smtp.gmail.com
+puerto=465
+# SSL (puerto 465), STARTTLS (puerto 587) o NINGUNA (solo pruebas)
+seguridad=SSL
+
+usuario=tucuenta@gmail.com
+contrasena=abcdefghijklmnop
+
+remitente=tucuenta@gmail.com
+nombreRemitente=Sistema de Gestión de Eventos

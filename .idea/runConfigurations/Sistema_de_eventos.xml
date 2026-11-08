@@ -1,0 +1,10 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Sistema de eventos" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="app.Main" />
+    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    <module name="sistema-eventos" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
