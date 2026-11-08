@@ -4,6 +4,45 @@ Implementación en Java de los CDU 001 a 015 con arquitectura **MVC**, interfaz 
 base de datos **PostgreSQL**. Funciona con **Java 8 o superior**. La única librería externa es el driver JDBC
 de PostgreSQL, que ya viene en `lib/`.
 
+## Documentación (SRS)
+
+La especificación de requisitos de software (SRS, IEEE 830) del Subsistema 1 está en
+**[docs/SRS-Subsistema1-v1.1.4.pdf](docs/SRS-Subsistema1-v1.1.4.pdf)**.
+
+- **Materia:** Ingeniería de Software II – Trabajo Práctico Anual
+- **Versión:** 1.1.4 · **Fecha de entrega:** 29/06/2026
+- **Profesores:** Jose Luis Oemig y Gonzalo Amigo
+- **Integrantes:** Giovannelli, Luis · Montiel, Ignacio · Rial, Santiago · Saraví, Lucas
+
+Contenido del documento:
+
+1. Introducción (propósito, alcance, definiciones)
+2. Descripción general (perspectiva, funciones, usuarios, restricciones)
+3. Requerimientos específicos: no funcionales (seguridad, rendimiento, usabilidad, mantenimiento,
+   escalabilidad) y funcionales RF001 a RF015
+4. Casos de uso CDU 001 a CDU 015
+5. Diseño de clases UML
+6. Diagramas de colaboración de objetos (DCO)
+7. Diagramas de secuencia (DDS)
+
+| CDU | Caso de uso | Requisito |
+|---|---|---|
+| 001 | Registro de usuario | RF001 |
+| 002 | Iniciar sesión | RF002 |
+| 003 | Restablecer contraseña | RF003 |
+| 004 | Gestionar usuario y contraseña | RF004 |
+| 005 | Asignar roles | RF005 |
+| 006 | Modificar usuario | RF006 |
+| 007 | Gestionar base de datos | RF007 |
+| 008 | Crear solicitud | RF008 |
+| 009 | Modificar solicitud | RF009 |
+| 010 | Eliminar solicitud | RF010 |
+| 011 | Crear evento | RF011 |
+| 012 | Eliminar evento | RF012 |
+| 013 | Validar evento | RF013 |
+| 014 | Modificar evento | RF014 |
+| 015 | Generar hoja de servicio | RF015 |
+
 ## Antes de empezar: PostgreSQL
 
 1. Instalá PostgreSQL (12 o superior) desde https://www.postgresql.org/download/. Durante la
